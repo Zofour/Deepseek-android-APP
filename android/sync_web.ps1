@@ -1,4 +1,4 @@
-# 把 web 构建产物同步进 APK 的 assets/www
+# Copy web build output into app/src/main/assets/www
 param(
     [string]$Dist = '',
     [string]$Dest = ''
