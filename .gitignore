@@ -1,0 +1,17 @@
+# 构建产物与本地配置，不要提交
+# --- web ---
+web/node_modules/
+web/dist/
+# --- android ---
+android/.gradle/
+android/build/
+android/app/build/
+android/app/src/main/assets/www/
+android/local.properties
+local.properties
+# --- dev tools ---
+cdp_last.txt
+*.apk
+# --- OS ---
+.DS_Store
+Thumbs.db
